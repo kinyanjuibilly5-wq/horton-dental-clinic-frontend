@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
- baseURL: 'https://horton-dental-clinic-portal.onrender.com/api',
+  baseURL: 'https://horton-dental-clinic-portal.onrender.com/api',
 });
 
 api.interceptors.request.use((config) => {
